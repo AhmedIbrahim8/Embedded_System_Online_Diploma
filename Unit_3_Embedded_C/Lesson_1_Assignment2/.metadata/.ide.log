@@ -679,3 +679,18 @@
 2023-09-01 17:22:46,898 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
 2023-09-01 17:22:53,563 [INFO] ApiDb:226 - Save user favorites file C:\Users\Ahmed/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2023-09-01 17:22:53,563 [INFO] ApiDb:230 - User favorites MCUs=[]
+2023-09-01 18:02:29,448 [INFO] MainUpdater:2268 - connection check result : 10
+2023-09-01 18:02:29,556 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-09-01 18:02:29,570 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Ahmed\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2023-09-01 18:02:29,571 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2023-09-01 18:02:29,571 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2023-09-01 18:02:29,758 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2023-09-01 18:02:29,759 [INFO] DetailPanel:331 - Set advertising image to C:/Users/Ahmed/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2023-09-01 18:02:29,949 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2023-09-01 18:03:48,566 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.4
+2023-09-01 18:03:48,567 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.3
+2023-09-01 18:03:48,568 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2023-09-01 18:03:48,568 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2023-09-01 18:03:48,569 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2023-09-01 18:03:51,315 [INFO] ApiDb:226 - Save user favorites file C:\Users\Ahmed/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-09-01 18:03:51,316 [INFO] ApiDb:230 - User favorites MCUs=[]
