@@ -1,0 +1,26 @@
+17:29:16 **** Incremental Build of configuration Debug for project EmbeddedC_1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+../Src/main.c: In function 'main':
+../Src/main.c:30:8: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+  uint8 y;
+        ^
+arm-none-eabi-gcc -o "EmbeddedC_1.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Embedded System_KS\Embedded System Online Diploma Github\Unit_3_Embedded_C\Lesson_1_Assignment2\EmbeddedC_1\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EmbeddedC_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EmbeddedC_1.elf
+ 
+arm-none-eabi-objdump -h -S  EmbeddedC_1.elf  > "EmbeddedC_1.list"
+arm-none-eabi-objcopy  -O binary  EmbeddedC_1.elf  "EmbeddedC_1.bin"
+arm-none-eabi-size   EmbeddedC_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+    552	      8	   1568	   2128	    850	EmbeddedC_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: EmbeddedC_1.bin
+ 
+Finished building: EmbeddedC_1.list
+ 
+
+17:29:17 Build Finished. 0 errors, 1 warnings. (took 1s.186ms)
+
