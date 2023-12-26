@@ -1,0 +1,20 @@
+04:03:40 **** Incremental Build of configuration Debug for project Lab1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g -DUSE_HAL_DRIVER -DSTM32F401xC -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "Lab1.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Embedded System_KS\Embedded System Online Diploma Github\Unit_15_Mastering_Arm_Cortex_M3_M4\Lesson5\Lab1\STM32F401CCFX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1.elf
+ 
+arm-none-eabi-objdump -h -S  Lab1.elf  > "Lab1.list"
+arm-none-eabi-objcopy  -O binary  Lab1.elf  "Lab1.bin"
+arm-none-eabi-size   Lab1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4764	     16	   1664	   6444	   192c	Lab1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1.bin
+ 
+Finished building: Lab1.list
+ 
+
+04:03:41 Build Finished. 0 errors, 0 warnings. (took 1s.585ms)
+

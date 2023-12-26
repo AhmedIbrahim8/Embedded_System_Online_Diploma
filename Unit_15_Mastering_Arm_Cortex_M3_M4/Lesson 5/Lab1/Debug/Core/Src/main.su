@@ -1,0 +1,8 @@
+main.c:54:6:SWITCH_CPU_AccessLevel	16	static,ignoring_inline_asm
+main.c:77:6:SVC_Handler	8	static
+main.c:83:5:TaskA	24	static
+main.c:89:5:TaskB	24	static
+main.c:101:6:Main_os	8	static,ignoring_inline_asm
+main.c:169:5:main	16	static
+main.c:262:6:func1	8	static
+main.c:295:6:func2	4	static

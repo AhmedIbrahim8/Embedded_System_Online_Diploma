@@ -1,0 +1,7 @@
+MNIVC_Program.c:39:6:MNVIC_VoidEnbleInterrupt	16	static
+MNIVC_Program.c:50:6:MNVIC_VoidDisableInterrupt	16	static
+MNIVC_Program.c:61:6:MNVIC_VoidEnableInterruptPending	16	static
+MNIVC_Program.c:73:6:MNVIC_VoidDisableInterruptPending	16	static
+MNIVC_Program.c:84:6:MNVIC_VoidIsInterruptActive	16	static
+MNIVC_Program.c:97:6:MNVIC_VoidSetInterruptGroupMode	24	static
+MNIVC_Program.c:112:6:MNVIC_VoidSetInterruptPriority	16	static

@@ -1,0 +1,8 @@
+MSYSTICK_Program.c:35:6:SYSTICK_voidInit	4	static
+MSYSTICK_Program.c:49:6:SYSTICK_voidCtrlIntState	16	static
+MSYSTICK_Program.c:60:6:SYSTICK_voidStart	16	static
+MSYSTICK_Program.c:76:4:SYSTICK_u8ReadFlag	4	static
+MSYSTICK_Program.c:90:6:SYSTICK_voidDelayUs	24	static
+MSYSTICK_Program.c:108:6:SYSTICK_voidDelayMs	24	static
+MSYSTICK_Program.c:125:5:SYSTICK_u32GetElapsedTime	4	static
+MSYSTICK_Program.c:130:5:SYSTICK_u32GetRemainingTime	4	static

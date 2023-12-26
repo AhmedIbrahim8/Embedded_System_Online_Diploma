@@ -1,0 +1,8 @@
+MGPIO_Program.c:91:6:MGPIO_SetMode	16	static
+MGPIO_Program.c:145:6:MGPIO_SetOutputPinMode	16	static
+MGPIO_Program.c:206:6:MGPIO_SetInputPinMode	16	static
+MGPIO_Program.c:249:6:MGPIO_GetPinValue	16	static
+MGPIO_Program.c:288:6:MGPIO_SetPinValue	16	static
+MGPIO_Program.c:329:6:MGPIO_SetPortValue	16	static
+MGPIO_Program.c:375:6:MGPIO_SetResetValue	16	static
+MGPIO_Program.c:457:6:MGPIO_SetAlternativeFuncPin	16	static
